@@ -10,5 +10,5 @@ The code takes an ideal vectorial near field, for example a linearly polarized f
 
 ## Example usage
 ```python
-python main.py
+python main.py configs/square_geometric_phase_lens.yml
 ```

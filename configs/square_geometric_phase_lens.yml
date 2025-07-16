@@ -1,0 +1,11 @@
+design_type: geometric
+aperture_shape: square
+
+wavelength: 800.0e-9
+n_oil: 1.45
+NA: 0.5
+aperture_side_length: 200.0e-6
+dl: 300.0e-9
+
+farfield_window_size: 5.0e-6
+farfield_dl: 20.0e-9

@@ -6,7 +6,7 @@ When designing a refractive or diffractive lens (e.g. with metasurfaces), people
 
 Vectorial diffraction is thus required, and common methods include Debye-Wolf Integral and Stratton-Chu Formula. While there are [papers on this topic](https://opg.optica.org/directpdfaccess/80aa040f-adee-47f0-a5a8fba57d982be8_383248/josaa-35-4-526.pdf?da=1&id=383248&seq=0&mobile=no), it would be nice to have an easy-to-use tool for this calculation, hence the purpose of this repo. 
 
-The code takes an ideal vectorial near field, for example a linearly polarized field with a phase profile of a focusing lens, or right-handed circularly polarized light as in geometric phase metalens), and runs the Stratton-Chu formula to compute the ideal focus profile in the farfield.
+The code takes an ideal vectorial near field, for example a linearly polarized field with a phase profile of a focusing lens (or right-handed circularly polarized light as in geometric phase metalens), and runs the Stratton-Chu formula to compute the ideal focus profile in the farfield.
 
 ## comparison with analytical expression:
 <img src="pics/stratton_chu_vs_analytical.png" alt="Description" width="900"/>

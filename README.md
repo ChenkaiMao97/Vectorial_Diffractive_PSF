@@ -8,6 +8,9 @@ Vectorial diffraction is thus required, and common methods include Debye-Wolf In
 
 The code takes an ideal vectorial near field, for example a linearly polarized field with a phase profile of a focusing lens, or right-handed circularly polarized light as in geometric phase metalens), and runs the Stratton-Chu formula to compute the ideal focus profile in the farfield.
 
+## comparison with analytical expression:
+<img src="pics/stratton_chu_vs_analytical.png" alt="Description" width="900"/>
+
 ## Example usage
 ```python
 python main.py configs/square_geometric_phase_lens.yml
